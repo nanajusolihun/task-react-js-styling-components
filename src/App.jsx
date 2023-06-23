@@ -1,14 +1,16 @@
 // import { useState } from "react";
-import "./App.css";
 // import React from "react";
-import HomePage from "./components/HomePage";
+// import HomePage from "./components/HomePage";
+import "./App.css";
+import Register from "./formandvalidation/Register";
+import SignupForm from "./formandvalidation/SignupForm";
 
 function App() {
   return (
     <>
-      <HomePage/>
+      <Register />
     </>
   );
-};
+}
 
 export default App;
