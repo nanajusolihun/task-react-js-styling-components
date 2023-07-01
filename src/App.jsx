@@ -5,12 +5,13 @@
 // import SignupForm from "./formandvalidation/SignupForm";
 // import ChatRoom from "./lifecycleComponent/LifecycleComponent";
 // import "./App.css";
-import NewsPage from "./lifecycleComponent/NewsPage";
+// import NewsPage from "./lifecycleComponent/NewsPage";
+import Hook from "./Hooks/Hook";
 
 function App() {
   return (
     <>
-      <NewsPage />
+      <Hook/>
     </>
   );
 }
